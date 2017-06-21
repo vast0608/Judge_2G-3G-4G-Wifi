@@ -15,6 +15,7 @@
 		88377F011CF7F1FC00250653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88377EFF1CF7F1FC00250653 /* LaunchScreen.storyboard */; };
 		88377F0C1CF7F1FC00250653 /* Network_CheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88377F0B1CF7F1FC00250653 /* Network_CheckTests.m */; };
 		88377F171CF7F1FC00250653 /* Network_CheckUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88377F161CF7F1FC00250653 /* Network_CheckUITests.m */; };
+		88377F261CF7F23C00250653 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 88377F251CF7F23C00250653 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		88377F121CF7F1FC00250653 /* Network_CheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Network_CheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88377F161CF7F1FC00250653 /* Network_CheckUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Network_CheckUITests.m; sourceTree = "<group>"; };
 		88377F181CF7F1FC00250653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88377F241CF7F23C00250653 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		88377F251CF7F23C00250653 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		88377EE51CF7F1FB00250653 = {
 			isa = PBXGroup;
 			children = (
+				88377F241CF7F23C00250653 /* Reachability.h */,
+				88377F251CF7F23C00250653 /* Reachability.m */,
 				88377EF01CF7F1FC00250653 /* Network_Check */,
 				88377F0A1CF7F1FC00250653 /* Network_CheckTests */,
 				88377F151CF7F1FC00250653 /* Network_CheckUITests */,
@@ -272,6 +277,7 @@
 			files = (
 				88377EF91CF7F1FC00250653 /* ViewController.m in Sources */,
 				88377EF61CF7F1FC00250653 /* AppDelegate.m in Sources */,
+				88377F261CF7F23C00250653 /* Reachability.m in Sources */,
 				88377EF31CF7F1FC00250653 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
